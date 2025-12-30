@@ -1,3 +1,8 @@
+## Author
+Shayan Yawar Bhatti — Data Analyst @ IntelliLight AI  
+LinkedIn: https://www.linkedin.com/in/shayan-yawar-bhatti/  
+GitHub: https://github.com/ShayanYawarBhatti
+
 # DataLemur SQL Archive (~100 Questions)
 
 A complete archive of my SQL practice across ~100 DataLemur-style interview problems.  
