@@ -1,4 +1,4 @@
-# DataLemur SQL Archive (~100 Solutions)
+# DataLemur SQL Archive (~100 Questions)
 
 A complete archive of my SQL practice across ~100 DataLemur-style interview problems.  
 Organized by difficulty and written to be **easy to scan** for interview prep and reviewer evaluation.
