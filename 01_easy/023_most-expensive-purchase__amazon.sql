@@ -1,8 +1,15 @@
--- Title: QuickBooks vs TurboTax
--- Company: Intuit
+-- Title: Most Expensive Purchase
+-- Company: Amazon
 -- Difficulty: Easy
 -- Access: Premium
--- Pattern: conditional aggregation (compare two products)
--- Summary: Compare metrics between QuickBooks and TurboTax by aggregating each product’s totals and presenting them side-by-side.
--- Notes: Use CASE to bucket product lines; cast to numeric for ratios/percentages; ensure product names match exactly.
+-- Pattern: aggregation (MAX per group)
+-- Summary: Return each customer’s highest purchase amount by taking MAX(purchase_amount) over their transactions.
+-- Notes: If you need the full purchase row (not just the amount) or need to handle ties, use DENSE_RANK() over purchase_amount.
 -- Dialect: PostgreSQL
+
+SELECT
+  customer_id,
+  MAX(purchase_amount) AS most_exp_purchase
+FROM transactions
+GROUP BY customer_id
+ORDER BY most_exp_purchase DESC

@@ -1,8 +1,16 @@
--- Title: Most Expensive Purchase
--- Company: Amazon
+-- Title: ApplePay Volume
+-- Company: Visa
 -- Difficulty: Easy
 -- Access: Premium
--- Pattern: top-1 per group (window rank or MAX)
--- Summary: Identify the most expensive purchase by selecting the maximum purchase amount (optionally per user) and returning the matching record(s).
--- Notes: If ties are possible, use RANK/DENSE_RANK to keep all top purchases; confirm whether output is global or per-user.
+-- Pattern: filtered aggregation
+-- Summary: Compute ApplePay transaction volume by filtering to ApplePay payments and aggregating the required metric (count or sum).
+-- Notes: Use SUM(amount) for total volume or COUNT(*) for transaction count; apply date filters before aggregating if required.
 -- Dialect: PostgreSQL
+
+SELECT 
+  merchant_id, 
+  SUM(CASE WHEN LOWER(payment_method) = 'apple pay' THEN transaction_amount
+  ELSE 0 END) AS total_transaction
+FROM transactions
+GROUP BY merchant_id
+ORDER BY total_transaction DESC;
