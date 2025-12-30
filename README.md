@@ -1,6 +1,6 @@
 # DataLemur SQL Archive (Private)
 
-This is my complete DataLemur SQL solution archive (~100+), organized by difficulty:
+This is my complete DataLemur SQL solution archive (~100), organized by difficulty:
 
 - `easy/`
 - `medium/`
