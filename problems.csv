@@ -1,0 +1,100 @@
+difficulty,access,company,title
+Easy,Free,Twitter,Histogram of Tweets
+Easy,Free,LinkedIn,Data Science Skills
+Easy,Free,Facebook,Page With No Likes
+Easy,Free,Tesla,Unfinished Parts
+Easy,Free,NY Times,Laptop vs. Mobile Viewership
+Easy,Free,Facebook,Average Post Hiatus (Part 1)
+Easy,Free,Microsoft,Teams Power Users
+Easy,Free,LinkedIn,Duplicate Job Listings
+Easy,Free,Robinhood,Cities With Completed Trades
+Easy,Free,Amazon,Average Review Ratings
+Easy,Free,FAANG,Well Paid Employees
+Easy,Free,PayPal,Final Account Balance
+Easy,Free,Facebook,App Click-through Rate (CTR)
+Easy,Free,TikTok,Second Day Confirmation
+Easy,Free,IBM,IBM db2 Product Analytics
+Easy,Free,JPMorgan,Cards Issued Difference
+Easy,Free,Alibaba,Compressed Mean
+Easy,Free,CVS Health,Pharmacy Analytics (Part 1)
+Easy,Free,CVS Health,Pharmacy Analytics (Part 2)
+Easy,Free,CVS Health,Pharmacy Analytics (Part 3)
+Easy,Free,UnitedHealth,Patient Support Analysis (Part 1)
+Easy,Premium,Intuit,QuickBooks vs TurboTax
+Easy,Premium,Amazon,Most Expensive Purchase
+Easy,Premium,Visa,ApplePay Volume
+Easy,Premium,Accenture,Subject Matter Experts
+Easy,Premium,LinkedIn,LinkedIn Power Creators (Part 1)
+Easy,Premium,eBay,Highest Number of Products
+Easy,Premium,Microsoft,Spare Server Capacity
+Easy,Premium,Yelp,Top Rated Businesses
+Easy,Premium,Google,Ad Campaign ROAS
+Easy,Premium,NVIDIA,Product Line Revenue
+Easy,Premium,Apple,Trade In Payouts
+Easy,Premium,Snowflake,Webinar Popularity
+Easy,Premium,Oracle,Who Made Quota?
+Medium,Free,Uber,User's Third Transaction
+Medium,Free,FAANG,Second Highest Salary
+Medium,Free,Snapchat,Sending vs. Opening Snaps
+Medium,Free,Twitter,Tweets' Rolling Averages
+Medium,Free,Amazon,Highest-Grossing Items
+Medium,Free,FAANG,Top Three Salaries
+Medium,Free,TikTok,Signup Activation Rate
+Medium,Free,Spotify,Spotify Streaming History
+Medium,Free,Microsoft,Supercloud Customer
+Medium,Free,Google,Odd and Even Measurements
+Medium,Free,Zomato,Swapped Food Delivery
+Medium,Free,Bloomberg,FAANG Stock Min-Max (Part 1)
+Medium,Free,Amazon,User Shopping Sprees
+Medium,Free,Walmart,Histogram of Users and Purchases
+Medium,Free,Alibaba,Compressed Mode
+Medium,Free,JPMorgan,Card Launch Success
+Medium,Free,Verizon,International Call Percentage
+Medium,Free,UnitedHealth,Patient Support Analysis (Part 2)
+Medium,Premium,Accenture,Fill Missing Client Data
+Medium,Premium,Microsoft,Mean, Median, Mode
+Medium,Premium,CVS Health,Pharmacy Analytics (Part 4)
+Medium,Premium,Walmart,Frequently Purchased Pairs
+Medium,Premium,Airbnb,Booking Referral Source
+Medium,Premium,Uber,2nd Ride Delay
+Medium,Premium,Google,Google Maps Flagged UGC
+Medium,Premium,LinkedIn,LinkedIn Power Creators (Part 2)
+Medium,Premium,PayPal,Unique Money Transfer Relationships
+Medium,Premium,Twitter,User Session Activity
+Medium,Premium,Etsy,First Transaction
+Medium,Premium,Facebook,Email Table Transformation
+Medium,Premium,Adobe,Photoshop Revenue Analysis
+Medium,Premium,Google,Consulting Bench Time
+Medium,Premium,Oracle,Sales Team Compensation
+Medium,Premium,Salesforce,Average Deal Size (Part 2)
+Medium,Premium,Amazon,Cumulative Purchases by Product Type
+Medium,Premium,Google,Invalid Search Results
+Medium,Premium,Accenture,Compensation Outliers
+Medium,Premium,Bloomberg,FAANG Stock Monthly Change (Part 2)
+Hard,Free,Facebook,Active User Retention
+Hard,Free,Wayfair,Y-on-Y Growth Rate
+Hard,Free,Amazon,Maximize Prime Item Inventory
+Hard,Free,Google,Median Google Search Frequency
+Hard,Free,Facebook,Advertiser Status
+Hard,Free,Intuit,Consecutive Filing Years
+Hard,Free,Snowflake,Marketing Touch Streak
+Hard,Free,McKinsey,3-Topping Pizzas
+Hard,Free,UnitedHealth,Patient Support Analysis (Part 3)
+Hard,Free,UnitedHealth,Patient Support Analysis (Part 4)
+Hard,Free,Stripe,Repeated Payments
+Hard,Free,Facebook,Reactivated Users
+Hard,Free,Google,Senior Managers
+Hard,Free,Amazon,Server Utilization Time
+Hard,Premium,Alibaba,Compressed Median
+Hard,Premium,Airbnb,Average Vacant Days
+Hard,Premium,Etsy,Same Week Purchases
+Hard,Premium,Apple,Follow-Up Airpod Percentage
+Hard,Premium,Bloomberg,FAANG Underperforming Stocks (Part 3)
+Hard,Premium,Pinterest,User Concurrent Sessions
+Hard,Premium,Visa,Monthly Merchant Balance
+Hard,Premium,DoorDash,Bad Delivery Rate
+Hard,Premium,Facebook,Page Recommendation
+Hard,Premium,Facebook,Event Friends Recommendation
+Hard,Premium,Airbnb,Matching Rental Amenities
+Hard,Premium,Facebook,Weekly Churn Rates
+Hard,Premium,Accenture,Uniquely Staffed Consultants
