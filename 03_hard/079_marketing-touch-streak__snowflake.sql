@@ -2,8 +2,7 @@
 -- Company: Snowflake
 -- Difficulty: Hard
 -- Access: Free
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: streaks (gaps-and-islands)
+-- Summary: Compute longest or current marketing touch streaks by grouping consecutive touch dates per customer.
+-- Notes: Deduplicate multiple touches on the same day if needed; use date difference logic + running group id to form streaks.
+-- Dialect: PostgreSQL

@@ -2,8 +2,7 @@
 -- Company: Facebook
 -- Difficulty: Hard
 -- Access: Free
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: state classification (business rules)
+-- Summary: Classify advertisers into statuses based on activity thresholds and time windows using conditional logic over aggregates.
+-- Notes: Encode status rules with CASE; ensure correct time filtering and distinct counts to avoid double-counting events.
+-- Dialect: PostgreSQL

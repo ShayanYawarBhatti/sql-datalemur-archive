@@ -2,8 +2,7 @@
 -- Company: Airbnb
 -- Difficulty: Hard
 -- Access: Premium
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: set containment (relational division)
+-- Summary: Find rentals that contain all required amenities by grouping amenities per listing and filtering with HAVING.
+-- Notes: Use COUNT(DISTINCT amenity) = required_count; ensure required list is deduplicated; join conditions must be exact.
+-- Dialect: PostgreSQL

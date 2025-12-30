@@ -2,8 +2,7 @@
 -- Company: Google
 -- Difficulty: Hard
 -- Access: Free
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: median via percentile / ranking
+-- Summary: Compute the median search frequency by ordering user frequencies and applying percentile logic.
+-- Notes: PostgreSQL supports PERCENTILE_CONT; if building manually, use row_number and middle-position logic; handle even counts carefully.
+-- Dialect: PostgreSQL

@@ -2,8 +2,7 @@
 -- Company: Amazon
 -- Difficulty: Hard
 -- Access: Free
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: interval overlap + aggregation
+-- Summary: Compute server utilization by merging overlapping time intervals per server and summing total utilized time.
+-- Notes: Use gaps-and-islands on interval boundaries; handle overlaps/adjacent intervals; ensure consistent time units.
+-- Dialect: PostgreSQL

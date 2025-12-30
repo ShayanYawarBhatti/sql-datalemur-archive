@@ -2,8 +2,7 @@
 -- Company: Airbnb
 -- Difficulty: Hard
 -- Access: Premium
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: date gaps (availability intervals)
+-- Summary: Compute average vacant days by measuring gaps between booked intervals per listing and averaging vacancy durations.
+-- Notes: Sort bookings per listing; clamp overlaps; decide whether to include leading/trailing vacancy based on definition.
+-- Dialect: PostgreSQL

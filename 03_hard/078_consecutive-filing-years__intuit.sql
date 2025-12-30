@@ -2,8 +2,7 @@
 -- Company: Intuit
 -- Difficulty: Hard
 -- Access: Free
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: gaps-and-islands (consecutive years)
+-- Summary: Detect consecutive filing streaks by comparing each year to the prior year per user and grouping continuous sequences.
+-- Notes: Use LAG(year) and a running group id; handle duplicates per year with DISTINCT; filter to streak length as required.
+-- Dialect: PostgreSQL

@@ -2,8 +2,7 @@
 -- Company: Pinterest
 -- Difficulty: Hard
 -- Access: Premium
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: concurrency (sweep line on intervals)
+-- Summary: Compute maximum concurrent sessions by converting session intervals into start/+1 and end/-1 events and taking a running sum.
+-- Notes: Order ties correctly (end before start at same timestamp if required); use window SUM over ordered events to get concurrency.
+-- Dialect: PostgreSQL

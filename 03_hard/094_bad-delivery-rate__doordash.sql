@@ -2,8 +2,7 @@
 -- Company: DoorDash
 -- Difficulty: Hard
 -- Access: Premium
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: conditional aggregation (rate) + filtering
+-- Summary: Compute bad delivery rate by dividing bad deliveries by total deliveries over the defined window and grouping as required.
+-- Notes: Define “bad” precisely (late, canceled, wrong order, etc.); cast to numeric and use NULLIF to avoid divide-by-zero.
+-- Dialect: PostgreSQL

@@ -2,8 +2,7 @@
 -- Company: Facebook
 -- Difficulty: Hard
 -- Access: Free
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: retention cohort (self-join / window)
+-- Summary: Compute retention by cohorting users on an initial activity date and measuring return activity in subsequent periods.
+-- Notes: Define cohort date consistently; use COUNT(DISTINCT user_id); align time buckets (day/week) exactly to the definition.
+-- Dialect: PostgreSQL

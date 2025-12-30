@@ -2,8 +2,7 @@
 -- Company: Google
 -- Difficulty: Hard
 -- Access: Free
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: hierarchical self-join + aggregation
+-- Summary: Use manager-employee hierarchy to count reports (direct/indirect) and return managers meeting the senior threshold.
+-- Notes: Recursive CTE may be required for indirect reports; avoid cycles; count DISTINCT employees to prevent double-counting.
+-- Dialect: PostgreSQL

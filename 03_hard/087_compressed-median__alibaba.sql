@@ -2,8 +2,7 @@
 -- Company: Alibaba
 -- Difficulty: Hard
 -- Access: Premium
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: weighted median (frequency table)
+-- Summary: Compute the median from a frequency table by finding the smallest value where cumulative frequency reaches 50% of total.
+-- Notes: Use running SUM(frequency) over ordered values; handle even totals carefully per definition; watch off-by-one in thresholds.
+-- Dialect: PostgreSQL

@@ -2,8 +2,7 @@
 -- Company: Bloomberg
 -- Difficulty: Hard
 -- Access: Premium
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: time series benchmark comparison
+-- Summary: Identify underperforming stocks by computing returns over a period and comparing them against a benchmark/peer threshold.
+-- Notes: Ensure consistent period endpoints; handle missing months/days; cast to numeric for return calculations.
+-- Dialect: PostgreSQL

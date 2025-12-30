@@ -2,8 +2,7 @@
 -- Company: Facebook
 -- Difficulty: Hard
 -- Access: Premium
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: graph recommendation (friends/likes) + ranking
+-- Summary: Recommend pages by leveraging user-user connections and page interactions, scoring candidate pages and ranking the top suggestions.
+-- Notes: Exclude pages the user already likes; deduplicate candidates; use window ranking to return top-N per user.
+-- Dialect: PostgreSQL

@@ -2,8 +2,7 @@
 -- Company: McKinsey
 -- Difficulty: Hard
 -- Access: Free
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: combinations via self-join
+-- Summary: Generate unique 3-item topping combinations using ordered self-joins and return all valid distinct combos.
+-- Notes: Enforce ordering (t1 < t2 < t3) to avoid permutations; use DISTINCT to remove duplicates.
+-- Dialect: PostgreSQL

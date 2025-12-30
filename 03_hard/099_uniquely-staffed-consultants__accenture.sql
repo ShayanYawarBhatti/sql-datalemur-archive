@@ -2,8 +2,7 @@
 -- Company: Accenture
 -- Difficulty: Hard
 -- Access: Premium
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: set uniqueness + aggregation
+-- Summary: Identify consultants staffed in a unique way by aggregating staffing assignments and filtering to those whose assignment set is unique.
+-- Notes: Build a canonical representation of assignment sets (e.g., STRING_AGG ordered) or compare counts per project; watch for duplicates.
+-- Dialect: PostgreSQL

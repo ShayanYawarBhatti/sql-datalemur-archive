@@ -2,8 +2,7 @@
 -- Company: Apple
 -- Difficulty: Hard
 -- Access: Premium
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: cohort + conditional percentage
+-- Summary: Compute the percentage of users who made a follow-up AirPods purchase after an initial qualifying purchase/event.
+-- Notes: Define the qualifying first event precisely; use DISTINCT users; use NULLIF to avoid divide-by-zero; handle time window boundaries.
+-- Dialect: PostgreSQL

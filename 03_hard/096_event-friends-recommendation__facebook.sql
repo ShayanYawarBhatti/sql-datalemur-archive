@@ -2,8 +2,7 @@
 -- Company: Facebook
 -- Difficulty: Hard
 -- Access: Premium
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: graph recommendation + filtering
+-- Summary: Recommend friends for events by combining friendship edges with event participation signals and ranking candidates.
+-- Notes: Exclude existing attendees/invitees per definition; avoid double-counting mutual connections; use DISTINCT on candidate pairs.
+-- Dialect: PostgreSQL

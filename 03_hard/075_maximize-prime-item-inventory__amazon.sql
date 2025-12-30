@@ -2,8 +2,7 @@
 -- Company: Amazon
 -- Difficulty: Hard
 -- Access: Free
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: constraints + window ranking
+-- Summary: Allocate limited inventory to maximize Prime eligibility by ranking items/warehouses and selecting optimal assignments under constraints.
+-- Notes: Break into CTEs; ensure constraints are enforced once; window ranking helps pick best candidates per constraint group.
+-- Dialect: PostgreSQL

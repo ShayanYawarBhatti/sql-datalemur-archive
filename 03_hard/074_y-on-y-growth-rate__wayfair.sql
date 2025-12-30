@@ -2,8 +2,7 @@
 -- Company: Wayfair
 -- Difficulty: Hard
 -- Access: Free
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: time series growth (LAG) + percent change
+-- Summary: Compute year-over-year growth by comparing each period’s metric to the same period in the prior year.
+-- Notes: Aggregate to the correct grain first; use LAG(…, 12) for monthly or join on year-1; use NULLIF to avoid divide-by-zero.
+-- Dialect: PostgreSQL

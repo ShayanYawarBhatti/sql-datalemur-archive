@@ -2,8 +2,7 @@
 -- Company: Facebook
 -- Difficulty: Hard
 -- Access: Free
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: churn/reactivation (gaps in activity)
+-- Summary: Identify users who became inactive for a period and later returned, based on gaps between activity dates.
+-- Notes: Compute last-active and next-active dates; define inactivity threshold precisely; deduplicate multiple events per day if needed.
+-- Dialect: PostgreSQL

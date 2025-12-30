@@ -2,8 +2,7 @@
 -- Company: Facebook
 -- Difficulty: Hard
 -- Access: Premium
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: churn / retention time series
+-- Summary: Compute weekly churn by comparing active users week-over-week and counting users who drop off in the next week.
+-- Notes: Define “active” per week consistently; use DATE_TRUNC('week', ...); COUNT(DISTINCT user_id); handle partial weeks carefully.
+-- Dialect: PostgreSQL

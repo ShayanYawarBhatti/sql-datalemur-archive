@@ -1,9 +1,8 @@
--- Title: Repeated Payments
--- Company: Stripe
+-- Title: Patient Support Analysis (Part 4)
+-- Company: UnitedHealth
 -- Difficulty: Hard
 -- Access: Free
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: multi-step aggregation + window
+-- Summary: Compute advanced patient support metrics using multiple CTE stages and window functions as required by the final output.
+-- Notes: Validate intermediate outputs; ensure correct partitioning/order for windows; handle NULLs and duplicates carefully.
+-- Dialect: PostgreSQL

@@ -2,8 +2,7 @@
 -- Company: Etsy
 -- Difficulty: Hard
 -- Access: Premium
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: time bucketing + self-join / aggregation
+-- Summary: Identify users who made multiple purchases within the same week by bucketing purchases to week and filtering for repeats.
+-- Notes: Use DATE_TRUNC('week', ...) for week bucket; ensure week definition matches expected (Mon vs Sun start).
+-- Dialect: PostgreSQL
