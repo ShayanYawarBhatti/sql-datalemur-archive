@@ -2,8 +2,7 @@
 -- Company: Etsy
 -- Difficulty: Medium
 -- Access: Premium
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: window function (ROW_NUMBER) / MIN per group
+-- Summary: Identify each user’s first transaction by ordering transactions and selecting the earliest one.
+-- Notes: Use ROW_NUMBER ordered by timestamp (plus id for tie-break); users with multiple same-time transactions need deterministic ordering.
+-- Dialect: PostgreSQL

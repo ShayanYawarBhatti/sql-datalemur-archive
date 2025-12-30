@@ -2,8 +2,7 @@
 -- Company: Amazon
 -- Difficulty: Medium
 -- Access: Free
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: aggregation + ranking (top-N)
+-- Summary: Aggregate revenue per item and return the highest-grossing items using ORDER BY with LIMIT or window ranking.
+-- Notes: Revenue may require SUM(price * quantity); handle ties with DENSE_RANK if the expected output includes them.
+-- Dialect: PostgreSQL

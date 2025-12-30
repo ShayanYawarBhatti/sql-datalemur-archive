@@ -2,8 +2,7 @@
 -- Company: Amazon
 -- Difficulty: Medium
 -- Access: Premium
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: window function (running total)
+-- Summary: Compute running totals of purchases per product type over time using SUM(...) OVER (PARTITION BY ... ORDER BY ...).
+-- Notes: Ensure correct ordering by date; choose ROWS vs RANGE depending on data grain; fill missing dates only if required.
+-- Dialect: PostgreSQL

@@ -2,8 +2,7 @@
 -- Company: UnitedHealth
 -- Difficulty: Medium
 -- Access: Free
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: aggregation + window / segmentation
+-- Summary: Extend the patient support analysis by computing segmented metrics and returning the required breakdown.
+-- Notes: Watch for one-to-many joins inflating counts; use DISTINCT where appropriate; match exact filtering criteria.
+-- Dialect: PostgreSQL

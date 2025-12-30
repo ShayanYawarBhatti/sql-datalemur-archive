@@ -2,8 +2,7 @@
 -- Company: Google
 -- Difficulty: Medium
 -- Access: Free
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: window function + conditional aggregation
+-- Summary: Assign an order to measurements per day and sum values at odd vs even positions using window functions.
+-- Notes: Use ROW_NUMBER ordered by time; then SUM with CASE for odd/even; ensure ordering is deterministic.
+-- Dialect: PostgreSQL

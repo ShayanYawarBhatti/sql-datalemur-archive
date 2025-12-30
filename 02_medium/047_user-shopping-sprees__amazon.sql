@@ -2,8 +2,7 @@
 -- Company: Amazon
 -- Difficulty: Medium
 -- Access: Free
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: window function (LAG) + streak/sessionization
+-- Summary: Identify shopping sprees by ordering purchases per user and grouping sequences where gaps between purchases meet the spree condition.
+-- Notes: Use LAG to compute time gaps; create a running group id via cumulative sum; confirm gap threshold and units.
+-- Dialect: PostgreSQL

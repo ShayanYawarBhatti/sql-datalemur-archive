@@ -2,8 +2,7 @@
 -- Company: Walmart
 -- Difficulty: Medium
 -- Access: Premium
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: self-join pairs + aggregation
+-- Summary: Generate item pairs from the same order/cart via self-join, then count pair frequency to find top pairs.
+-- Notes: Enforce item_a < item_b to avoid duplicates; use COUNT(DISTINCT order_id) if multiple rows per order exist.
+-- Dialect: PostgreSQL

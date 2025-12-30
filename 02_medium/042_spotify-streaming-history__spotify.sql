@@ -2,8 +2,7 @@
 -- Company: Spotify
 -- Difficulty: Medium
 -- Access: Free
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: aggregation + grouping (time series)
+-- Summary: Aggregate streaming activity by the required dimension (e.g., user, artist, date) to produce a listening-history summary.
+-- Notes: If session boundaries matter, group by date/time correctly; watch for duplicates and use DISTINCT where needed.
+-- Dialect: PostgreSQL

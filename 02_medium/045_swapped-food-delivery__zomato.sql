@@ -2,8 +2,7 @@
 -- Company: Zomato
 -- Difficulty: Medium
 -- Access: Free
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: self-join / pairing logic
+-- Summary: Detect swapped deliveries by matching orders and deliveries across users/restaurants and flagging mismatched pairings.
+-- Notes: Be careful with join keys to avoid Cartesian matches; use DISTINCT or a unique order id where available.
+-- Dialect: PostgreSQL

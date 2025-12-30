@@ -2,8 +2,7 @@
 -- Company: FAANG
 -- Difficulty: Medium
 -- Access: Free
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: window function (DENSE_RANK) / top-N
+-- Summary: Return the top three distinct salaries (optionally per department) using DENSE_RANK and filtering rank <= 3.
+-- Notes: Use DENSE_RANK (not ROW_NUMBER) to keep ties; clarify whether scope is company-wide or per department.
+-- Dialect: PostgreSQL

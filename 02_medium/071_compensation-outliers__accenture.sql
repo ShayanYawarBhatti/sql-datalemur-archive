@@ -2,8 +2,7 @@
 -- Company: Accenture
 -- Difficulty: Medium
 -- Access: Premium
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: statistical thresholds (IQR/z-score)
+-- Summary: Detect compensation outliers by computing a benchmark distribution and filtering salaries outside the threshold.
+-- Notes: IQR uses percentiles (PERCENTILE_CONT); ensure thresholds match definition; handle small groups carefully.
+-- Dialect: PostgreSQL

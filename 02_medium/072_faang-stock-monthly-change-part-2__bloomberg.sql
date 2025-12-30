@@ -2,8 +2,7 @@
 -- Company: Bloomberg
 -- Difficulty: Medium
 -- Access: Premium
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: time series (LAG) + percent change
+-- Summary: Compute month-over-month stock changes by comparing each month’s value to the prior month using LAG.
+-- Notes: Aggregate to monthly grain first (e.g., month-end price); cast to numeric and use NULLIF to avoid divide-by-zero.
+-- Dialect: PostgreSQL

@@ -2,8 +2,7 @@
 -- Company: FAANG
 -- Difficulty: Medium
 -- Access: Free
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: ranking (DENSE_RANK) / MAX-of-less-than
+-- Summary: Find the second highest salary using DENSE_RANK over salaries or by selecting MAX(salary) below the maximum.
+-- Notes: Use DISTINCT salaries to handle duplicates; decide whether to return NULL when fewer than 2 unique salaries exist.
+-- Dialect: PostgreSQL

@@ -2,8 +2,7 @@
 -- Company: Bloomberg
 -- Difficulty: Medium
 -- Access: Free
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: aggregation (MIN/MAX) over time
+-- Summary: Compute min and max stock prices (or values) per ticker over the specified time window.
+-- Notes: Filter to the correct date range first; group by ticker; ensure using the correct price column.
+-- Dialect: PostgreSQL

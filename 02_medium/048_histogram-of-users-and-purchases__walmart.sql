@@ -2,8 +2,7 @@
 -- Company: Walmart
 -- Difficulty: Medium
 -- Access: Free
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: two-step aggregation (histogram)
+-- Summary: Aggregate purchase counts per user, then count users per purchase-count bucket to produce a histogram.
+-- Notes: Use COUNT(DISTINCT order_id) if multiple rows per order exist; filter to the correct timeframe before aggregation.
+-- Dialect: PostgreSQL

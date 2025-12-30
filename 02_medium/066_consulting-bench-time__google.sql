@@ -2,8 +2,7 @@
 -- Company: Google
 -- Difficulty: Medium
 -- Access: Premium
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: date range math + gaps (bench time)
+-- Summary: Calculate bench time by measuring gaps between staffed project intervals per consultant and summing unassigned days.
+-- Notes: Sort intervals carefully; clamp overlaps to avoid negative gaps; handle first/last interval boundaries per definition.
+-- Dialect: PostgreSQL

@@ -2,8 +2,7 @@
 -- Company: Google
 -- Difficulty: Medium
 -- Access: Premium
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: data quality filtering
+-- Summary: Identify invalid search results by applying validity rules (NULLs, mismatched ids, missing links) and returning affected queries/results.
+-- Notes: Encode validation conditions explicitly; use NOT EXISTS for missing reference rows; be careful with NULL comparisons.
+-- Dialect: PostgreSQL

@@ -2,8 +2,7 @@
 -- Company: PayPal
 -- Difficulty: Medium
 -- Access: Premium
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: pair normalization + distinct counting
+-- Summary: Count unique transfer relationships by normalizing sender/receiver pairs and counting distinct pairs.
+-- Notes: Use LEAST/GREATEST (or CASE) to make pairs order-independent; exclude self-transfers if required.
+-- Dialect: PostgreSQL

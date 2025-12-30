@@ -2,8 +2,7 @@
 -- Company: Uber
 -- Difficulty: Medium
 -- Access: Free
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: window function (ROW_NUMBER)
+-- Summary: Order transactions per user and select the third one using ROW_NUMBER (or another ranking window function).
+-- Notes: Use a deterministic order (timestamp + transaction_id) to break ties; filter row_number = 3.
+-- Dialect: PostgreSQL

@@ -2,8 +2,7 @@
 -- Company: CVS Health
 -- Difficulty: Medium
 -- Access: Premium
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: multi-step aggregation
+-- Summary: Combine prior pharmacy metrics with additional filters/joins and compute the requested summary measures.
+-- Notes: Stage logic in CTEs to avoid double-counting; apply cohort/date filters early for performance.
+-- Dialect: PostgreSQL

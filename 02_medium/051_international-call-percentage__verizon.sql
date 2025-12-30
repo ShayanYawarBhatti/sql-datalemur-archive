@@ -2,8 +2,7 @@
 -- Company: Verizon
 -- Difficulty: Medium
 -- Access: Free
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: conditional aggregation (percentage)
+-- Summary: Compute the percentage of international calls by dividing international call counts by total calls.
+-- Notes: Use NULLIF to avoid divide-by-zero; confirm what defines “international” (country codes vs boolean flag).
+-- Dialect: PostgreSQL

@@ -2,8 +2,7 @@
 -- Company: Twitter
 -- Difficulty: Medium
 -- Access: Free
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: window function (rolling average)
+-- Summary: Compute a rolling average of tweet counts per user over a 3-day window using an ordered window frame.
+-- Notes: Order by date; ensure the window frame matches the exact definition (ROWS vs RANGE); round only if required.
+-- Dialect: PostgreSQL

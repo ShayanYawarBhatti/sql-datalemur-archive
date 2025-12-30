@@ -2,8 +2,7 @@
 -- Company: Uber
 -- Difficulty: Medium
 -- Access: Premium
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: window function (ROW_NUMBER/LAG) + time difference
+-- Summary: Order rides per user and compute the time gap between the first and second ride (or isolate the 2nd ride delay).
+-- Notes: Use ROW_NUMBER to pick rides 1 and 2; ensure timestamp math uses correct units; handle users with <2 rides.
+-- Dialect: PostgreSQL

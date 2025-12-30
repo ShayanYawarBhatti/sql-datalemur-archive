@@ -2,8 +2,7 @@
 -- Company: Twitter
 -- Difficulty: Medium
 -- Access: Premium
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: sessionization (time-gap grouping)
+-- Summary: Build sessions per user by grouping events where gaps exceed a threshold, then aggregate activity per session.
+-- Notes: Use LAG to compute gaps and a running SUM to assign session_id; confirm session gap threshold and units.
+-- Dialect: PostgreSQL

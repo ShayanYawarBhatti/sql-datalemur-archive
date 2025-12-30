@@ -2,8 +2,7 @@
 -- Company: LinkedIn
 -- Difficulty: Medium
 -- Access: Premium
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: window ranking + thresholds
+-- Summary: Rank creators by engagement metrics and filter to those meeting power-creator criteria using window functions and HAVING/WHERE.
+-- Notes: Use DENSE_RANK for ties; confirm metric definitions and time window; deduplicate engagement events if needed.
+-- Dialect: PostgreSQL

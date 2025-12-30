@@ -2,8 +2,7 @@
 -- Company: Oracle
 -- Difficulty: Medium
 -- Access: Premium
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: aggregation + business rules
+-- Summary: Compute compensation by applying commission/bonus rules to sales aggregates and returning payout per rep.
+-- Notes: Encode rules with CASE; verify tiers and thresholds; use COALESCE for missing components.
+-- Dialect: PostgreSQL

@@ -2,8 +2,7 @@
 -- Company: Alibaba
 -- Difficulty: Medium
 -- Access: Free
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: frequency ranking (mode from counts)
+-- Summary: Compute the mode from a frequency table by selecting the value with the highest frequency.
+-- Notes: Handle ties (return all modes vs single) using DENSE_RANK; order deterministically if only one should be returned.
+-- Dialect: PostgreSQL

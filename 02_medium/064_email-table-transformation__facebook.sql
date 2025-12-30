@@ -2,8 +2,7 @@
 -- Company: Facebook
 -- Difficulty: Medium
 -- Access: Premium
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: transformations (pivot / normalization)
+-- Summary: Transform the email table into the required shape using CASE-based pivoting or conditional aggregation.
+-- Notes: Use MAX(CASE...) for pivot columns; ensure one row per entity after transformation; handle NULLs with COALESCE if needed.
+-- Dialect: PostgreSQL

@@ -2,8 +2,7 @@
 -- Company: Salesforce
 -- Difficulty: Medium
 -- Access: Premium
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: aggregation + segmented averages
+-- Summary: Compute average deal size by grouping deals by stage/owner/segment and taking AVG of deal amounts.
+-- Notes: Filter to closed/won as required; use AVG(amount::numeric) if needed; exclude NULL/0 deals depending on definition.
+-- Dialect: PostgreSQL

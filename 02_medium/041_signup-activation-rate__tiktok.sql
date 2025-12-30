@@ -2,8 +2,7 @@
 -- Company: TikTok
 -- Difficulty: Medium
 -- Access: Free
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: retention / conversion rate
+-- Summary: Compute activation rate as activated users divided by signups over the cohort/time window defined in the problem.
+-- Notes: Use COUNT(DISTINCT user_id); cast to numeric and use NULLIF to avoid divide-by-zero; ensure correct activation definition.
+-- Dialect: PostgreSQL

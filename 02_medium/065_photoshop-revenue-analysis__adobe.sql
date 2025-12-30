@@ -2,8 +2,7 @@
 -- Company: Adobe
 -- Difficulty: Medium
 -- Access: Premium
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: aggregation + filtering by product
+-- Summary: Filter revenue to Photoshop (or its SKU) and compute the requested revenue metrics by the required dimension.
+-- Notes: Watch for product naming variants; if joining orders to products, avoid double-counting with DISTINCT order ids.
+-- Dialect: PostgreSQL

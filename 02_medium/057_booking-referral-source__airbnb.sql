@@ -2,8 +2,7 @@
 -- Company: Airbnb
 -- Difficulty: Medium
 -- Access: Premium
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: attribution aggregation
+-- Summary: Attribute bookings to referral sources and aggregate bookings/revenue by source.
+-- Notes: If multiple touches exist, confirm whether to use first-touch/last-touch; deduplicate bookings before aggregating.
+-- Dialect: PostgreSQL

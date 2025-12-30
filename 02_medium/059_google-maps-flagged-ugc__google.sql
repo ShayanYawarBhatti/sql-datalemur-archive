@@ -2,8 +2,7 @@
 -- Company: Google
 -- Difficulty: Medium
 -- Access: Premium
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: filtering + aggregation by status
+-- Summary: Filter to flagged user-generated content and aggregate counts/percentages by reason/status as required.
+-- Notes: Confirm what qualifies as “flagged” (boolean vs status code); use DISTINCT if joins can duplicate UGC records.
+-- Dialect: PostgreSQL

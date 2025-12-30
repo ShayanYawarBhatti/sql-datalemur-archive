@@ -2,8 +2,7 @@
 -- Company: Snapchat
 -- Difficulty: Medium
 -- Access: Free
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: conditional aggregation
+-- Summary: Compare sending vs opening behavior by aggregating counts per user (or date) using CASE filters for each action type.
+-- Notes: Ensure event/action labels match exactly; if comparing rates, cast to numeric and use NULLIF for divide-by-zero.
+-- Dialect: PostgreSQL
