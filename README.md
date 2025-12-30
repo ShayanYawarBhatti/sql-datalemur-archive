@@ -1,10 +1,11 @@
-# DataLemur SQL Archive (Private)
+# DataLemur SQL Archive
 
 This is my complete DataLemur SQL solution archive (~100), organized by difficulty:
 
-- `easy/`
-- `medium/`
-- `hard/`
+## Browse by difficulty
+- [Easy](./easy/)
+- [Medium](./medium/)
+- [Hard](./hard/)
 
 Each solution file contains only:
 - a short summary in my own words
