@@ -118,6 +118,5 @@ Each solution file includes:
 
 ## Disclaimer
 
-This repository is for personal learning and interview preparation.  
-All problem statements, schemas, sample data, and platform content belong to their respective owners (e.g., DataLemur). I do **not** reproduce prompt text, schemas, examples, or test cases—only my own summaries and original SQL solutions.
+This repository is for personal learning and interview preparation.  All problem statements, schemas, sample data, and platform content belong to their respective owners (e.g., DataLemur). I do **not** reproduce prompt text, schemas, examples, or test cases—only my own summaries and original SQL solutions.
 
