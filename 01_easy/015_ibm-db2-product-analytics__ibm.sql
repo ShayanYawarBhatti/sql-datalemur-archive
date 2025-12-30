@@ -2,8 +2,7 @@
 -- Company: IBM
 -- Difficulty: Easy
 -- Access: Free
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: aggregation by dimension
+-- Summary: Aggregate product usage/engagement metrics by the required dimension (e.g., user, product, date) and return the requested summary.
+-- Notes: Apply the correct filters first (date range, product name, event type) before aggregating.
+-- Dialect: PostgreSQL

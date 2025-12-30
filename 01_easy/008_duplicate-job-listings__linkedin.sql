@@ -2,8 +2,7 @@
 -- Company: LinkedIn
 -- Difficulty: Easy
 -- Access: Free
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: duplicate detection (GROUP BY + HAVING)
+-- Summary: Identify duplicate job listings by grouping on the fields that define “same listing” and filtering groups with count > 1.
+-- Notes: Use COUNT(*) for duplicates; if output needs unique companies/roles, select the grouping columns (not raw rows).
+-- Dialect: PostgreSQL

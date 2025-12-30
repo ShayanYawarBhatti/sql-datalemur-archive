@@ -2,8 +2,7 @@
 -- Company: JPMorgan
 -- Difficulty: Easy
 -- Access: Free
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: aggregation + difference (two groups)
+-- Summary: Compute the difference in cards issued between two time periods or groups by aggregating each side and subtracting.
+-- Notes: Use conditional aggregation to compute both values in one query; cast if needed to avoid integer issues.
+-- Dialect: PostgreSQL

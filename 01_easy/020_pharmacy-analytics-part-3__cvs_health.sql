@@ -2,8 +2,7 @@
 -- Company: CVS Health
 -- Difficulty: Easy
 -- Access: Free
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: conditional aggregation
+-- Summary: Compute segmented pharmacy metrics using CASE expressions and aggregate to produce the requested breakdown.
+-- Notes: Ensure categories are mutually exclusive; cast to numeric for ratios to avoid integer division.
+-- Dialect: PostgreSQL

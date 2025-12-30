@@ -2,8 +2,7 @@
 -- Company: Microsoft
 -- Difficulty: Easy
 -- Access: Premium
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: aggregation + capacity math
+-- Summary: Compute spare capacity by aggregating used resources per server and subtracting from total capacity.
+-- Notes: Use COALESCE to treat missing usage as 0; ensure units match (CPU, memory, etc.).
+-- Dialect: PostgreSQL

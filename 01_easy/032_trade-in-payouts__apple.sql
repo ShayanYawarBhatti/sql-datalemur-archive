@@ -2,8 +2,7 @@
 -- Company: Apple
 -- Difficulty: Easy
 -- Access: Premium
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: conditional aggregation + grouping
+-- Summary: Compute trade-in payout totals by grouping on the required dimension and summing payout amounts.
+-- Notes: If payout depends on condition/grade, use CASE logic; handle NULL payouts with COALESCE if needed.
+-- Dialect: PostgreSQL

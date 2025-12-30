@@ -2,8 +2,7 @@
 -- Company: NY Times
 -- Difficulty: Easy
 -- Access: Free
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: conditional aggregation
+-- Summary: Compute viewership counts by device type using CASE expressions and aggregate to compare laptop vs mobile.
+-- Notes: Grouping is usually not needed if output is single-row totals; verify device categories (e.g., 'laptop', 'tablet', 'phone').
+-- Dialect: PostgreSQL

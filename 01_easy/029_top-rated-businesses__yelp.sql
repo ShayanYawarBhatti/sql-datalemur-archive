@@ -2,8 +2,7 @@
 -- Company: Yelp
 -- Difficulty: Easy
 -- Access: Premium
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: ranking (top-N)
+-- Summary: Rank businesses by average rating (and optionally review count) and return the top results.
+-- Notes: If a minimum number of reviews is required, filter with HAVING before ranking; handle ties with DENSE_RANK if needed.
+-- Dialect: PostgreSQL

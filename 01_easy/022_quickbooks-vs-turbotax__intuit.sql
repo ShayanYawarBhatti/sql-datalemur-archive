@@ -2,8 +2,7 @@
 -- Company: Intuit
 -- Difficulty: Easy
 -- Access: Premium
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: conditional aggregation (compare two products)
+-- Summary: Compare metrics between QuickBooks and TurboTax by aggregating each product’s totals and presenting them side-by-side.
+-- Notes: Use CASE to bucket product lines; cast to numeric for ratios/percentages; ensure product names match exactly.
+-- Dialect: PostgreSQL

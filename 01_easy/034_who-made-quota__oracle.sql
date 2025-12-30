@@ -2,8 +2,7 @@
 -- Company: Oracle
 -- Difficulty: Easy
 -- Access: Premium
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: aggregation + threshold (HAVING)
+-- Summary: Aggregate sales per rep and filter for those who meet or exceed quota using HAVING.
+-- Notes: Ensure sales are summed over the correct time period; use COALESCE if sales can be NULL.
+-- Dialect: PostgreSQL

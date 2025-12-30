@@ -2,8 +2,7 @@
 -- Company: Microsoft
 -- Difficulty: Easy
 -- Access: Free
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: aggregation + HAVING threshold
+-- Summary: Aggregate user activity and filter users who exceed a power-user threshold using HAVING.
+-- Notes: Use COUNT(DISTINCT ...) if the metric is unique actions; confirm the threshold metric (messages, reactions, days active).
+-- Dialect: PostgreSQL

@@ -2,8 +2,7 @@
 -- Company: PayPal
 -- Difficulty: Easy
 -- Access: Free
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: signed aggregation (credits vs debits)
+-- Summary: Compute ending balances by summing transaction amounts with correct signs for inflows vs outflows.
+-- Notes: Use CASE to assign +/- amounts; confirm which column indicates sender vs receiver (or transaction type).
+-- Dialect: PostgreSQL

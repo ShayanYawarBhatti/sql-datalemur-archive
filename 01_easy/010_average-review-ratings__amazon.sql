@@ -2,8 +2,7 @@
 -- Company: Amazon
 -- Difficulty: Easy
 -- Access: Free
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: aggregation (AVG) + grouping
+-- Summary: Compute average review rating per entity (e.g., product, merchant) using AVG and group by the required dimension.
+-- Notes: Handle NULL ratings if present; round only if the expected output format requires it.
+-- Dialect: PostgreSQL

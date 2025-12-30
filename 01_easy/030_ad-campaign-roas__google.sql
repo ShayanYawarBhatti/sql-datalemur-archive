@@ -2,8 +2,7 @@
 -- Company: Google
 -- Difficulty: Easy
 -- Access: Premium
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: ratio metric (conditional aggregation)
+-- Summary: Compute ROAS as revenue divided by ad spend by aggregating campaign totals and calculating the ratio.
+-- Notes: Cast to numeric to avoid integer division; use NULLIF to prevent divide-by-zero.
+-- Dialect: PostgreSQL

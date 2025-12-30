@@ -2,8 +2,7 @@
 -- Company: TikTok
 -- Difficulty: Easy
 -- Access: Free
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: retention / cohort check (self-join or date diff)
+-- Summary: Identify users who returned/confirmed on day 2 by comparing event dates to the signup/initial date.
+-- Notes: Use DATE + INTERVAL '1 day' or date_diff logic; ensure you’re matching the correct “day 2” definition.
+-- Dialect: PostgreSQL

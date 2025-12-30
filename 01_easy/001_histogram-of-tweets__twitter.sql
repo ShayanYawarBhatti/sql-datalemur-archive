@@ -2,8 +2,10 @@
 -- Company: Twitter
 -- Difficulty: Easy
 -- Access: Free
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
+-- Pattern: two-step aggregation (histogram)
+-- Summary: Build a histogram by first counting tweets per user, then counting how many users fall into each tweet_count bucket.
+-- Notes: Apply any date/window filter before the per-user aggregation; COUNT(*) vs COUNT(tweet_id) depends on nullability.
+-- Dialect: PostgreSQL
 
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+
+

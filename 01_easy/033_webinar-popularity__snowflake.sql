@@ -2,8 +2,7 @@
 -- Company: Snowflake
 -- Difficulty: Easy
 -- Access: Premium
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: aggregation + ranking
+-- Summary: Aggregate webinar attendance/engagement metrics and rank webinars to identify the most popular ones.
+-- Notes: If popularity is based on distinct attendees, use COUNT(DISTINCT user_id); include ties with DENSE_RANK if needed.
+-- Dialect: PostgreSQL

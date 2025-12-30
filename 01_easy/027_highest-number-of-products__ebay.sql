@@ -2,8 +2,7 @@
 -- Company: eBay
 -- Difficulty: Easy
 -- Access: Premium
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: top-1 aggregation (MAX / ORDER BY LIMIT)
+-- Summary: Find the entity (e.g., seller/category) with the highest product count by aggregating and selecting the maximum.
+-- Notes: If ties should be included, use RANK/DENSE_RANK instead of LIMIT 1.
+-- Dialect: PostgreSQL

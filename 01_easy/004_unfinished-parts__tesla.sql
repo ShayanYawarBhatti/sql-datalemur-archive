@@ -2,8 +2,7 @@
 -- Company: Tesla
 -- Difficulty: Easy
 -- Access: Free
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: filtering + grouping
+-- Summary: Filter to incomplete/unfinished records and aggregate counts by part or process as required by the output.
+-- Notes: Be explicit about what qualifies as “unfinished” (NULL, status flag, or missing timestamp) to match the definition.
+-- Dialect: PostgreSQL

@@ -2,8 +2,7 @@
 -- Company: LinkedIn
 -- Difficulty: Easy
 -- Access: Premium
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: aggregation + threshold
+-- Summary: Aggregate creator activity metrics and filter to power creators who exceed a defined engagement or posting threshold.
+-- Notes: Verify the metric definition (posts, reactions, followers, impressions); use COUNT(DISTINCT ...) to avoid double-counting.
+-- Dialect: PostgreSQL

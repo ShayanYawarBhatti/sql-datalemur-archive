@@ -2,8 +2,7 @@
 -- Company: CVS Health
 -- Difficulty: Easy
 -- Access: Free
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: aggregation + join
+-- Summary: Join relevant tables (e.g., prescriptions, patients) then compute the requested aggregate metrics.
+-- Notes: Watch for one-to-many joins that inflate counts; use DISTINCT where needed to avoid double-counting.
+-- Dialect: PostgreSQL

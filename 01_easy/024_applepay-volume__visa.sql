@@ -1,9 +1,8 @@
--- Title: ApplePay Volume
--- Company: Visa
+-- Title: Most Expensive Purchase
+-- Company: Amazon
 -- Difficulty: Easy
 -- Access: Premium
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: top-1 per group (window rank or MAX)
+-- Summary: Identify the most expensive purchase by selecting the maximum purchase amount (optionally per user) and returning the matching record(s).
+-- Notes: If ties are possible, use RANK/DENSE_RANK to keep all top purchases; confirm whether output is global or per-user.
+-- Dialect: PostgreSQL

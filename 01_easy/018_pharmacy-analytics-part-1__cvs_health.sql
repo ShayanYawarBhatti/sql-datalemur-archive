@@ -1,9 +1,8 @@
--- Title: Pharmacy Analytics (Part 1)
--- Company: CVS Health
+-- Title: Compressed Mean
+-- Company: Alibaba
 -- Difficulty: Easy
 -- Access: Free
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: weighted aggregation
+-- Summary: Compute the mean from a frequency table using SUM(value * frequency) / SUM(frequency).
+-- Notes: Cast to numeric to avoid integer division; round only if your output requires it.
+-- Dialect: PostgreSQL

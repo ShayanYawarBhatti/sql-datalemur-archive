@@ -2,8 +2,7 @@
 -- Company: Accenture
 -- Difficulty: Easy
 -- Access: Premium
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: aggregation + HAVING
+-- Summary: Identify experts by aggregating experience/skills per employee and filtering those meeting an expertise threshold.
+-- Notes: Use COUNT(DISTINCT skill) if duplicates exist; confirm whether threshold is per-skill, per-project, or total.
+-- Dialect: PostgreSQL

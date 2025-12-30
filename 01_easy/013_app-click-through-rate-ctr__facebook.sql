@@ -2,8 +2,7 @@
 -- Company: Facebook
 -- Difficulty: Easy
 -- Access: Free
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: conditional aggregation (rate)
+-- Summary: Compute CTR as clicks divided by impressions (or views) using conditional counts/sums and a ratio.
+-- Notes: Cast to numeric to avoid integer division; protect against divide-by-zero with NULLIF.
+-- Dialect: PostgreSQL

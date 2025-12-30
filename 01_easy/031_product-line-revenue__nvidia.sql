@@ -2,8 +2,7 @@
 -- Company: NVIDIA
 -- Difficulty: Easy
 -- Access: Premium
--- Summary: TODO (1–2 lines in your own words, no prompt text)
--- Dialect: TODO (e.g., PostgreSQL)  # optional
-
--- SQL:
--- TODO: paste your SQL solution below (no DataLemur prompt/schema/examples).
+-- Pattern: aggregation by dimension
+-- Summary: Aggregate revenue by product line using SUM and return the requested revenue breakdown.
+-- Notes: Ensure revenue is computed at the correct grain (price * quantity vs precomputed revenue); watch for join inflation.
+-- Dialect: PostgreSQL
